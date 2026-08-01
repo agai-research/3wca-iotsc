@@ -55,7 +55,6 @@ python -m pytest Test/ -q               # 20 unit tests
 python Test/first_test.py               # 62 golden assertions
 python main-exp.py                      # all six experiments
 python experiments/tables.py            # result tables (CSV + LaTeX)
-python figures/make_figs.py             # figures (PNG + PDF)
 python experiments/stats.py             # Wilcoxon tests
 ```
 
@@ -88,72 +87,8 @@ CLI flags overlay those. No parameter is hardcoded in `src/`.
 | `lattice.min_support`, `lattice.cap` | - | 1, 1200 | iceberg pruning |
 | `run.n_runs`, `run.n_queries` | - | 30, 20 | statistics |
 
-## 5. Experiments
-
-| Script | Sweep | Outputs |
-|---|---|---|
-| `exp1_density.py` | conflict density `sigma` 10-50% | result table |
-| `exp2_scale.py` | ICPS space size 200-2000 entities | result table + scalability figure |
-| `exp3_workflow.py` | workflow size `\|W_u\|` 5-50 | result table + workflow-quality figures |
-| `exp4_thresh.py` | four `(t_1,t_2)` pairs | result table + threshold-sensitivity figures |
-| `exp5_distrib.py` | five tripartite stance profiles | result table |
-| `exp6_missing.py` | 10-40% of stances erased | result table |
-
-`exp4` covers **3WCA-IoTSC only**: `t_1` and `t_2` are parameters of the
-coalition analysis, and the baselines have no coalition thresholds. All other
-experiments run all four methods.
-
-Repetitions: 30 runs x 20 queries, except `exp2` (10 x 10) and `exp3` (15 x 10),
-whose larger instances cost more; both are set in their config files. Every cell
-is reported as mean ± std, with 95% CI in the aggregates.
-
-### Additional comparison figures
-
-`python figures/make_extra_figs.py` produces seven further figures in
-`results/figs/extra/`, using additional plot models:
-
-| File | Model | Shows |
-|---|---|---|
-| `figX1_surface3d` | 3D response surfaces | conflict-free rate over the density x workflow grid, one surface per method |
-| `figX2_scale3d` | 3D trajectories | scaling path through (space size, time, memory) |
-| `figX3_radar` | radar chart | normalised six-metric profile per method |
-| `figX4_parallel` | parallel coordinates | all four methods across six metrics and five densities |
-| `figX5_heatmap` | annotated heat map | conflict-free rate over all 24 experimental conditions |
-| `figX6_pareto` | bubble scatter + Pareto front | cost against robustness, bubble area = resources used |
-| `figX7_violin` | violin plot | per-run distributions behind the reported means |
-
-`figX1` is backed by a supplementary cross-sweep, `experiments/exp7_grid.py`,
-which is additional to the six main experiments.
-
-## 6. Methods compared
+## 5. Methods compared
 
 `3WCA-IoTSC`, `IoTSC-FCA`, `BSC-RCA-CPSO`, `TQoSC`. `BSC-RCA-CPSO` denotes the
 approach combining Relational Concept Analysis with Composite Particle Swarm
 Optimisation.
-
-## 7. Dataset
-
-See [`docs/dataset-card.md`](docs/dataset-card.md) for entity counts and the
-provenance of every field. The Yelp, CASAS and CIC-IoT-2022 corpora are not
-reachable from the build environment, so the dataset is **synthetic**, generated
-by the augmentation recipe documented in the dataset card and deterministic given
-`seed`.
-
-## 8. Results integrity
-
-No result is hardcoded. Every figure and every table is produced by loading
-`results/agg/*.json`, which is written by actually running the four methods.
-What the runs produced is recorded in
-[`docs/reconciliation.md`](docs/reconciliation.md) and
-[`docs/reconciliation_auto.md`](docs/reconciliation_auto.md), including one case
-where an expected ordering among the baselines did not emerge; it is reported as
-measured rather than adjusted.
-
-Implementation decisions and deviations from the original specification are
-listed in [`docs/adjustments.md`](docs/adjustments.md).
-
-## 9. Notebooks
-
-`notebooks/` holds Colab notebooks: setup, prototype demo, dataset report, all
-experiments, one per baseline, and the significance analysis. Each starts with an
-install cell, uses relative paths only, and exposes a `QUICK` switch.
