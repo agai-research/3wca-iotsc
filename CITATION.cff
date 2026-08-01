@@ -1,9 +1,0 @@
-cff-version: 1.2.0
-title: 3WCA-IoTSC
-message: Prototype of three-way conflict analysis for IoT service composition.
-type: software
-authors:
-  - family-names: Ghedass
-    given-names: F.
-license: MIT
-version: 1.0.0
