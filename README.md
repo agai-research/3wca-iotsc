@@ -31,7 +31,6 @@ composition of IoT services and resources for a requested abstract workflow.
 | `Data/gen_data.py` | Dataset generator and the smart-classroom fixture |
 | `Data/gen_inst.py` | Per-experiment instances derived from the main dataset |
 | `experiments/` | The six experiments, metrics, harness, result tables, statistics |
-| `figures/` | Figure generation |
 | `Test/first_test.py` | Golden regression test on the smart-classroom example |
 
 ## 2. Installation
