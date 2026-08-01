@@ -1,0 +1,4 @@
+03:43:24 INFO    exp4_thresh | exp4_thresh_0.1_0.9 point=(0.1, 0.9) done (30 runs)
+03:43:54 INFO    exp4_thresh | exp4_thresh_0.2_0.8 point=(0.2, 0.8) done (30 runs)
+03:44:20 INFO    exp4_thresh | exp4_thresh_0.3_0.7 point=(0.3, 0.7) done (30 runs)
+03:44:35 INFO    exp4_thresh | exp4_thresh_0.4_0.6 point=(0.4, 0.6) done (30 runs)

@@ -1,0 +1,46 @@
+====================================================================
+3WCA-IoTSC  -  conflict-aware IoT service composition
+====================================================================
+ICPS space          : |S|=8  |R|=10  |F|=5
+parameters          : t1=0.1  t2=0.6  theta_G=0.5  w=[0.5, 0.3, 0.2]
+
+W_c (candidates)    : 7 services
+                      LS, CB, QG, RM, SL, CC, PC
+Delta (max coalition): |5| LS, QG, RM, SL, PC
+Gamma (min conflict) : |9| generators
+                      (LS, CB, PG)
+                      (LS, NG, AH)
+                      (CB, RM, PG)
+                      (CB, SL, PG)
+                      (CB, NG, PG)
+                      (CB, CC, PG)
+                      (CB, PC, PG)
+                      (QG, NG, AH)
+                      (RM, CC, MG)
+psi (neutral)        : |2| NG, CC
+
+service       mu_D    mu_G  mu_psi    score  region
+LS           0.800   0.222   1.000    0.133  delta
+CB           0.800   0.667   1.000    0.000  gamma
+QG           0.600   0.111   1.000    0.067  delta
+RM           0.800   0.222   1.000    0.133  delta
+SL           0.600   0.111   1.000    0.067  delta
+NG           0.800   0.333   0.500    0.200  psi
+CC           0.800   0.222   0.500    0.233  psi
+PC           0.800   0.111   1.000    0.167  delta
+
+selection trace:
+  a1: LS (score 0.133)
+     pruned: CB
+  a2: QG (score 0.067)
+  a3: PC (score 0.167)
+  a4: RM (score 0.133)
+     pruned: CC
+  a5: SL (score 0.067)
+
+C_IoT               : LS, QG, RM, SL, PC
+resources assigned  : MS, AH, WC, PG, TS, MG, AL, MB, EP
+conflict-free       : True
+Sev(C_IoT)          : 0.1156
+score(C_IoT)        : 0.7407
+====================================================================

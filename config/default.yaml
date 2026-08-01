@@ -1,0 +1,25 @@
+# 3WCA-IoTSC - default parameters. Symbols follow Table 15 of the paper.
+seed: 42
+dataset:
+  n_services: 1000        # |S|
+  n_resources: 500        # |R|
+  n_features: 20          # |F|  (Table 15 range 10-30)
+  res_per_service: [1, 5] # each service consumes 1-5 IoT devices
+  feat_per_service: [2, 6]
+  density: 0.20           # sigma: share of -1 among the *defined* stances
+  popularity_alpha: 0.3   # Zipf skew of IoT resource popularity (hot devices)
+  dist: [0.50, 0.30, 0.20]  # (+1, 0, -1), the "Realistic" profile
+analysis:
+  t1: 0.10                # lower threshold for allied coalitions
+  t2: 0.60                # upper threshold for conflict sets
+  theta_gamma: 0.50       # max allowed conflict severity
+  w: [0.5, 0.3, 0.2]      # w1, w2, w3 of the scoring function
+lattice:
+  min_support: 1          # iceberg pruning: minimum extent size
+  cap: 1200               # max concepts kept (adjustment A10)
+query:
+  n_tasks: 10             # |W_u|
+  n_features: 2           # |F_u|
+run:
+  n_runs: 30              # independent repetitions -> mean / std
+  n_queries: 20           # user queries per run

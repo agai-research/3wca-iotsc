@@ -1,0 +1,5 @@
+03:45:01 INFO    exp5_distrib | exp5_distrib point=High-Alliance done (30 runs)
+03:45:21 INFO    exp5_distrib | exp5_distrib point=Balanced done (30 runs)
+03:45:40 INFO    exp5_distrib | exp5_distrib point=High-Neutral done (30 runs)
+03:46:01 INFO    exp5_distrib | exp5_distrib point=High-Conflict done (30 runs)
+03:46:21 INFO    exp5_distrib | exp5_distrib point=Realistic done (30 runs)

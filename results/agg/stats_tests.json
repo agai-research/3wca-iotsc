@@ -1,0 +1,967 @@
+{
+ "exp1_density": {
+  "success vs IoTSC-FCA": {
+   "p": 9.450584259549728e-11,
+   "effect_rank_biserial": 1.0,
+   "mean_diff": 0.024,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "success vs BSC-RCA-CPSO": {
+   "p": 0.6587263150974862,
+   "effect_rank_biserial": -0.024,
+   "mean_diff": 0.008666666666666668,
+   "n_pairs": 150,
+   "significant_at_0.05": false
+  },
+  "success vs TQoSC": {
+   "p": 0.09831189807226677,
+   "effect_rank_biserial": -0.17355371900826447,
+   "mean_diff": -0.011,
+   "n_pairs": 150,
+   "significant_at_0.05": false
+  },
+  "severity vs IoTSC-FCA": {
+   "p": 0.0009371403842805878,
+   "effect_rank_biserial": 0.25333333333333335,
+   "mean_diff": 4.7623133064270126e-07,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "severity vs BSC-RCA-CPSO": {
+   "p": 5.79182410622221e-11,
+   "effect_rank_biserial": 0.52,
+   "mean_diff": 3.872645683063764e-06,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "severity vs TQoSC": {
+   "p": 1.9247604112760357e-13,
+   "effect_rank_biserial": 0.5466666666666666,
+   "mean_diff": 4.9977597985849795e-06,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "score vs IoTSC-FCA": {
+   "p": 2.492131574142924e-26,
+   "effect_rank_biserial": -0.9866666666666667,
+   "mean_diff": -0.00460765404731891,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "score vs BSC-RCA-CPSO": {
+   "p": 2.2996057560669792e-26,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.12421897431253032,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "score vs TQoSC": {
+   "p": 2.2996057560669792e-26,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.13284596246235186,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "n_conflicts vs IoTSC-FCA": {
+   "p": 2.02915191336385e-25,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.139,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "n_conflicts vs BSC-RCA-CPSO": {
+   "p": 9.95519266659145e-25,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.107,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "n_conflicts vs TQoSC": {
+   "p": 1.1115857845793584e-23,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.08733333333333333,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "time_ms vs IoTSC-FCA": {
+   "p": 2.3463081875314243e-26,
+   "effect_rank_biserial": -0.9866666666666667,
+   "mean_diff": -0.2968390353329748,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "time_ms vs BSC-RCA-CPSO": {
+   "p": 2.2996057560669792e-26,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -5.860145233331764,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "time_ms vs TQoSC": {
+   "p": 2.2996057560669792e-26,
+   "effect_rank_biserial": 1.0,
+   "mean_diff": 1.0302467880007196,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  }
+ },
+ "exp2_scale": {
+  "success vs IoTSC-FCA": {
+   "p": 0.05227694930969065,
+   "effect_rank_biserial": 1.0,
+   "mean_diff": 0.018,
+   "n_pairs": 50,
+   "significant_at_0.05": false
+  },
+  "success vs BSC-RCA-CPSO": {
+   "p": 0.758110775090263,
+   "effect_rank_biserial": 0.0625,
+   "mean_diff": 0.0020000000000000018,
+   "n_pairs": 50,
+   "significant_at_0.05": false
+  },
+  "success vs TQoSC": {
+   "p": 0.9221793225819939,
+   "effect_rank_biserial": 0.030303030303030304,
+   "mean_diff": -0.0019999999999999974,
+   "n_pairs": 50,
+   "significant_at_0.05": false
+  },
+  "severity vs IoTSC-FCA": {
+   "p": 0.2791602522478317,
+   "effect_rank_biserial": 0.15,
+   "mean_diff": -4.4388665102116334e-07,
+   "n_pairs": 50,
+   "significant_at_0.05": false
+  },
+  "severity vs BSC-RCA-CPSO": {
+   "p": 0.7029707183580612,
+   "effect_rank_biserial": -0.06382978723404255,
+   "mean_diff": 5.1339342082534955e-06,
+   "n_pairs": 50,
+   "significant_at_0.05": false
+  },
+  "severity vs TQoSC": {
+   "p": 0.6958217064526084,
+   "effect_rank_biserial": -0.06382978723404255,
+   "mean_diff": 5.418466025709235e-06,
+   "n_pairs": 50,
+   "significant_at_0.05": false
+  },
+  "score vs IoTSC-FCA": {
+   "p": 1.6762498904782156e-08,
+   "effect_rank_biserial": -0.7872340425531915,
+   "mean_diff": -0.004973241725538138,
+   "n_pairs": 50,
+   "significant_at_0.05": true
+  },
+  "score vs BSC-RCA-CPSO": {
+   "p": 1.7763568394002505e-15,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.12398620133769293,
+   "n_pairs": 50,
+   "significant_at_0.05": true
+  },
+  "score vs TQoSC": {
+   "p": 1.7763568394002505e-15,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.12772693768865667,
+   "n_pairs": 50,
+   "significant_at_0.05": true
+  },
+  "n_conflicts vs IoTSC-FCA": {
+   "p": 1.1898651480297423e-07,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.11200000000000002,
+   "n_pairs": 50,
+   "significant_at_0.05": true
+  },
+  "n_conflicts vs BSC-RCA-CPSO": {
+   "p": 9.652717552758653e-07,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.09,
+   "n_pairs": 50,
+   "significant_at_0.05": true
+  },
+  "n_conflicts vs TQoSC": {
+   "p": 5.444199629049371e-06,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.08800000000000001,
+   "n_pairs": 50,
+   "significant_at_0.05": true
+  },
+  "time_ms vs IoTSC-FCA": {
+   "p": 1.2871659293978155e-10,
+   "effect_rank_biserial": -0.88,
+   "mean_diff": -0.31112116199824413,
+   "n_pairs": 50,
+   "significant_at_0.05": true
+  },
+  "time_ms vs BSC-RCA-CPSO": {
+   "p": 1.7763568394002505e-15,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -5.47493704000226,
+   "n_pairs": 50,
+   "significant_at_0.05": true
+  },
+  "time_ms vs TQoSC": {
+   "p": 1.7763568394002505e-15,
+   "effect_rank_biserial": 1.0,
+   "mean_diff": 1.889601710000079,
+   "n_pairs": 50,
+   "significant_at_0.05": true
+  }
+ },
+ "exp3_workflow_10": {
+  "success vs IoTSC-FCA": {
+   "p": 0.37262376720863477,
+   "effect_rank_biserial": 1.0,
+   "mean_diff": 0.020000000000000004,
+   "n_pairs": 15,
+   "significant_at_0.05": false
+  },
+  "success vs BSC-RCA-CPSO": {
+   "p": 0.794002680192762,
+   "effect_rank_biserial": -0.2,
+   "mean_diff": 0.006666666666666672,
+   "n_pairs": 15,
+   "significant_at_0.05": false
+  },
+  "success vs TQoSC": {
+   "p": 0.562233237272292,
+   "effect_rank_biserial": -0.2727272727272727,
+   "mean_diff": -0.01333333333333333,
+   "n_pairs": 15,
+   "significant_at_0.05": false
+  },
+  "severity vs IoTSC-FCA": {
+   "p": 0.4777337208915726,
+   "effect_rank_biserial": 0.2857142857142857,
+   "mean_diff": 3.5151308687981055e-07,
+   "n_pairs": 15,
+   "significant_at_0.05": false
+  },
+  "severity vs BSC-RCA-CPSO": {
+   "p": 0.5994873046875,
+   "effect_rank_biserial": 0.2,
+   "mean_diff": 1.4768720883157258e-06,
+   "n_pairs": 15,
+   "significant_at_0.05": false
+  },
+  "severity vs TQoSC": {
+   "p": 0.1353759765625,
+   "effect_rank_biserial": 0.2,
+   "mean_diff": 3.548931960618453e-06,
+   "n_pairs": 15,
+   "significant_at_0.05": false
+  },
+  "score vs IoTSC-FCA": {
+   "p": 0.0006103515625,
+   "effect_rank_biserial": -0.7333333333333333,
+   "mean_diff": -0.004370052442158593,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "score vs BSC-RCA-CPSO": {
+   "p": 6.103515625e-05,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.12357847581503548,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "score vs TQoSC": {
+   "p": 6.103515625e-05,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.13176114830360203,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "n_conflicts vs IoTSC-FCA": {
+   "p": 0.002592588151993339,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.12000000000000002,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "n_conflicts vs BSC-RCA-CPSO": {
+   "p": 0.004337130933389972,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.08666666666666666,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "n_conflicts vs TQoSC": {
+   "p": 0.007756815420419787,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.06666666666666667,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "time_ms vs IoTSC-FCA": {
+   "p": 0.00018310546875,
+   "effect_rank_biserial": -0.8666666666666667,
+   "mean_diff": -0.26357100669732364,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "time_ms vs BSC-RCA-CPSO": {
+   "p": 6.103515625e-05,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -6.201375626693941,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "time_ms vs TQoSC": {
+   "p": 6.103515625e-05,
+   "effect_rank_biserial": 1.0,
+   "mean_diff": 1.0784208066509866,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  }
+ },
+ "exp3_workflow_20": {
+  "success vs IoTSC-FCA": {
+   "p": 0.004459291509913564,
+   "effect_rank_biserial": 1.0,
+   "mean_diff": 0.08,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "success vs BSC-RCA-CPSO": {
+   "p": 0.14589691599455615,
+   "effect_rank_biserial": 0.3333333333333333,
+   "mean_diff": 0.09333333333333332,
+   "n_pairs": 15,
+   "significant_at_0.05": false
+  },
+  "success vs TQoSC": {
+   "p": 0.3931945073856956,
+   "effect_rank_biserial": 0.3333333333333333,
+   "mean_diff": 0.039999999999999994,
+   "n_pairs": 15,
+   "significant_at_0.05": false
+  },
+  "severity vs IoTSC-FCA": {
+   "p": 0.42120361328125,
+   "effect_rank_biserial": 0.2,
+   "mean_diff": 3.999852265777521e-07,
+   "n_pairs": 15,
+   "significant_at_0.05": false
+  },
+  "severity vs BSC-RCA-CPSO": {
+   "p": 0.803955078125,
+   "effect_rank_biserial": -0.2,
+   "mean_diff": 1.5595729697438865e-06,
+   "n_pairs": 15,
+   "significant_at_0.05": false
+  },
+  "severity vs TQoSC": {
+   "p": 0.0946044921875,
+   "effect_rank_biserial": 0.2,
+   "mean_diff": 4.264147433116086e-06,
+   "n_pairs": 15,
+   "significant_at_0.05": false
+  },
+  "score vs IoTSC-FCA": {
+   "p": 6.103515625e-05,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.005457590344498938,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "score vs BSC-RCA-CPSO": {
+   "p": 6.103515625e-05,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.11078686704126521,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "score vs TQoSC": {
+   "p": 6.103515625e-05,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.13109664361040518,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "n_conflicts vs IoTSC-FCA": {
+   "p": 0.0006980926170397746,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.36,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "n_conflicts vs BSC-RCA-CPSO": {
+   "p": 0.0006130456955211334,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.3133333333333334,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "n_conflicts vs TQoSC": {
+   "p": 0.0011626975394483663,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.27999999999999997,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "time_ms vs IoTSC-FCA": {
+   "p": 0.0001220703125,
+   "effect_rank_biserial": -0.8666666666666667,
+   "mean_diff": -0.2831769800134983,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "time_ms vs BSC-RCA-CPSO": {
+   "p": 6.103515625e-05,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -8.238288186677588,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "time_ms vs TQoSC": {
+   "p": 6.103515625e-05,
+   "effect_rank_biserial": 1.0,
+   "mean_diff": 1.472825926666701,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  }
+ },
+ "exp3_workflow_30": {
+  "success vs IoTSC-FCA": {
+   "p": 0.002560942403502567,
+   "effect_rank_biserial": 1.0,
+   "mean_diff": 0.08666666666666666,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "success vs BSC-RCA-CPSO": {
+   "p": 0.024374250196372366,
+   "effect_rank_biserial": 0.5384615384615384,
+   "mean_diff": 0.18000000000000002,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "success vs TQoSC": {
+   "p": 0.49429971401302697,
+   "effect_rank_biserial": 0.07692307692307693,
+   "mean_diff": 0.06666666666666667,
+   "n_pairs": 15,
+   "significant_at_0.05": false
+  },
+  "severity vs IoTSC-FCA": {
+   "p": 0.5994873046875,
+   "effect_rank_biserial": 0.2,
+   "mean_diff": 8.881285412955548e-08,
+   "n_pairs": 15,
+   "significant_at_0.05": false
+  },
+  "severity vs BSC-RCA-CPSO": {
+   "p": 0.03533935546875,
+   "effect_rank_biserial": 0.4666666666666667,
+   "mean_diff": 4.184385647224823e-06,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "severity vs TQoSC": {
+   "p": 0.00262451171875,
+   "effect_rank_biserial": 0.6,
+   "mean_diff": 7.010553182200825e-06,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "score vs IoTSC-FCA": {
+   "p": 6.103515625e-05,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.00622236467491859,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "score vs BSC-RCA-CPSO": {
+   "p": 6.103515625e-05,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.1154357797572655,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "score vs TQoSC": {
+   "p": 6.103515625e-05,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.13575408564078326,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "n_conflicts vs IoTSC-FCA": {
+   "p": 0.000617784266432169,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.41333333333333333,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "n_conflicts vs BSC-RCA-CPSO": {
+   "p": 0.0005912650237009975,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.43333333333333335,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "n_conflicts vs TQoSC": {
+   "p": 0.0017323898472068082,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.2866666666666667,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "time_ms vs IoTSC-FCA": {
+   "p": 0.00115966796875,
+   "effect_rank_biserial": -0.8666666666666667,
+   "mean_diff": -0.1950681800114277,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "time_ms vs BSC-RCA-CPSO": {
+   "p": 6.103515625e-05,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -9.166000500008522,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "time_ms vs TQoSC": {
+   "p": 6.103515625e-05,
+   "effect_rank_biserial": 1.0,
+   "mean_diff": 1.5900156399902698,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  }
+ },
+ "exp3_workflow_5": {
+  "success vs IoTSC-FCA": {
+   "p": 1.0,
+   "effect": 0.0,
+   "note": "identical samples"
+  },
+  "success vs BSC-RCA-CPSO": {
+   "p": 0.6722379739012292,
+   "effect_rank_biserial": -0.3333333333333333,
+   "mean_diff": -0.006666666666666665,
+   "n_pairs": 15,
+   "significant_at_0.05": false
+  },
+  "success vs TQoSC": {
+   "p": 0.6722379739012292,
+   "effect_rank_biserial": -0.3333333333333333,
+   "mean_diff": -0.006666666666666665,
+   "n_pairs": 15,
+   "significant_at_0.05": false
+  },
+  "severity vs IoTSC-FCA": {
+   "p": 0.06037236968394283,
+   "effect_rank_biserial": 0.45454545454545453,
+   "mean_diff": 1.2144901748741614e-06,
+   "n_pairs": 15,
+   "significant_at_0.05": false
+  },
+  "severity vs BSC-RCA-CPSO": {
+   "p": 0.5614013671875,
+   "effect_rank_biserial": -0.06666666666666667,
+   "mean_diff": 2.5532757741322428e-06,
+   "n_pairs": 15,
+   "significant_at_0.05": false
+  },
+  "severity vs TQoSC": {
+   "p": 0.48870849609375,
+   "effect_rank_biserial": 0.06666666666666667,
+   "mean_diff": 2.805075273579149e-06,
+   "n_pairs": 15,
+   "significant_at_0.05": false
+  },
+  "score vs IoTSC-FCA": {
+   "p": 0.001747425441684536,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.003535584606426956,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "score vs BSC-RCA-CPSO": {
+   "p": 6.103515625e-05,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.13562016341124092,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "score vs TQoSC": {
+   "p": 6.103515625e-05,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.13695165106167353,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "n_conflicts vs IoTSC-FCA": {
+   "p": 0.37251077376394814,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.013333333333333334,
+   "n_pairs": 15,
+   "significant_at_0.05": false
+  },
+  "n_conflicts vs BSC-RCA-CPSO": {
+   "p": 0.6373518882339371,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.006666666666666667,
+   "n_pairs": 15,
+   "significant_at_0.05": false
+  },
+  "n_conflicts vs TQoSC": {
+   "p": 0.6373518882339371,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.006666666666666667,
+   "n_pairs": 15,
+   "significant_at_0.05": false
+  },
+  "time_ms vs IoTSC-FCA": {
+   "p": 6.103515625e-05,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.2917067533356506,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "time_ms vs BSC-RCA-CPSO": {
+   "p": 6.103515625e-05,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -3.7050383066586314,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "time_ms vs TQoSC": {
+   "p": 6.103515625e-05,
+   "effect_rank_biserial": 1.0,
+   "mean_diff": 0.7870143400032248,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  }
+ },
+ "exp3_workflow_50": {
+  "success vs IoTSC-FCA": {
+   "p": 0.002560942403502567,
+   "effect_rank_biserial": 1.0,
+   "mean_diff": 0.08666666666666666,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "success vs BSC-RCA-CPSO": {
+   "p": 0.024374250196372366,
+   "effect_rank_biserial": 0.5384615384615384,
+   "mean_diff": 0.18000000000000002,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "success vs TQoSC": {
+   "p": 0.49429971401302697,
+   "effect_rank_biserial": 0.07692307692307693,
+   "mean_diff": 0.06666666666666667,
+   "n_pairs": 15,
+   "significant_at_0.05": false
+  },
+  "severity vs IoTSC-FCA": {
+   "p": 0.5994873046875,
+   "effect_rank_biserial": 0.2,
+   "mean_diff": 8.881285412955548e-08,
+   "n_pairs": 15,
+   "significant_at_0.05": false
+  },
+  "severity vs BSC-RCA-CPSO": {
+   "p": 0.03533935546875,
+   "effect_rank_biserial": 0.4666666666666667,
+   "mean_diff": 4.184385647224823e-06,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "severity vs TQoSC": {
+   "p": 0.00262451171875,
+   "effect_rank_biserial": 0.6,
+   "mean_diff": 7.010553182200825e-06,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "score vs IoTSC-FCA": {
+   "p": 6.103515625e-05,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.00622236467491859,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "score vs BSC-RCA-CPSO": {
+   "p": 6.103515625e-05,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.1154357797572655,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "score vs TQoSC": {
+   "p": 6.103515625e-05,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.13575408564078326,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "n_conflicts vs IoTSC-FCA": {
+   "p": 0.000617784266432169,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.41333333333333333,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "n_conflicts vs BSC-RCA-CPSO": {
+   "p": 0.0005912650237009975,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.43333333333333335,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "n_conflicts vs TQoSC": {
+   "p": 0.0017323898472068082,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.2866666666666667,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "time_ms vs IoTSC-FCA": {
+   "p": 6.103515625e-05,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.21070302000074057,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "time_ms vs BSC-RCA-CPSO": {
+   "p": 6.103515625e-05,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -9.175860846674672,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  },
+  "time_ms vs TQoSC": {
+   "p": 6.103515625e-05,
+   "effect_rank_biserial": 1.0,
+   "mean_diff": 1.621351319996999,
+   "n_pairs": 15,
+   "significant_at_0.05": true
+  }
+ },
+ "exp4_thresh_0.1_0.9": {},
+ "exp4_thresh_0.2_0.8": {},
+ "exp4_thresh_0.3_0.7": {},
+ "exp4_thresh_0.4_0.6": {},
+ "exp5_distrib": {
+  "success vs IoTSC-FCA": {
+   "p": 1.6593581469381252e-05,
+   "effect_rank_biserial": 1.0,
+   "mean_diff": 0.012999999999999998,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "success vs BSC-RCA-CPSO": {
+   "p": 0.21407269394992356,
+   "effect_rank_biserial": 0.12962962962962962,
+   "mean_diff": 0.008333333333333333,
+   "n_pairs": 150,
+   "significant_at_0.05": false
+  },
+  "success vs TQoSC": {
+   "p": 0.5186603613443848,
+   "effect_rank_biserial": -0.09803921568627451,
+   "mean_diff": -0.0019999999999999996,
+   "n_pairs": 150,
+   "significant_at_0.05": false
+  },
+  "severity vs IoTSC-FCA": {
+   "p": 0.00037707137404394136,
+   "effect_rank_biserial": 0.28,
+   "mean_diff": 5.256899458054648e-07,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "severity vs BSC-RCA-CPSO": {
+   "p": 4.51304897703577e-09,
+   "effect_rank_biserial": 0.4383561643835616,
+   "mean_diff": 4.184595038551955e-06,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "severity vs TQoSC": {
+   "p": 2.6910626348658955e-11,
+   "effect_rank_biserial": 0.4896551724137931,
+   "mean_diff": 5.353467074078849e-06,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "score vs IoTSC-FCA": {
+   "p": 2.594302786258403e-26,
+   "effect_rank_biserial": -0.9866666666666667,
+   "mean_diff": -0.0043446065877213716,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "score vs BSC-RCA-CPSO": {
+   "p": 2.2996057560669792e-26,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.12395616106005501,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "score vs TQoSC": {
+   "p": 2.2996057560669792e-26,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.13258318607738076,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "n_conflicts vs IoTSC-FCA": {
+   "p": 3.3090766187082828e-21,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.08066666666666666,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "n_conflicts vs BSC-RCA-CPSO": {
+   "p": 4.47699121347587e-21,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.06433333333333334,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "n_conflicts vs TQoSC": {
+   "p": 4.505612528389834e-18,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.054000000000000006,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "time_ms vs IoTSC-FCA": {
+   "p": 5.334310571162265e-26,
+   "effect_rank_biserial": -0.9866666666666667,
+   "mean_diff": -0.29279853999832994,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "time_ms vs BSC-RCA-CPSO": {
+   "p": 2.2996057560669792e-26,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -5.812141195671454,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "time_ms vs TQoSC": {
+   "p": 2.2996057560669792e-26,
+   "effect_rank_biserial": 1.0,
+   "mean_diff": 1.0251725043301576,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  }
+ },
+ "exp6_missing": {
+  "success vs IoTSC-FCA": {
+   "p": 1.2571682830852173e-06,
+   "effect_rank_biserial": 1.0,
+   "mean_diff": 0.017333333333333333,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "success vs BSC-RCA-CPSO": {
+   "p": 0.6264876827796624,
+   "effect_rank_biserial": 0.008264462809917356,
+   "mean_diff": 0.003666666666666664,
+   "n_pairs": 150,
+   "significant_at_0.05": false
+  },
+  "success vs TQoSC": {
+   "p": 0.2517142457817644,
+   "effect_rank_biserial": -0.14285714285714285,
+   "mean_diff": -0.008000000000000004,
+   "n_pairs": 150,
+   "significant_at_0.05": false
+  },
+  "severity vs IoTSC-FCA": {
+   "p": 0.4042873899928878,
+   "effect_rank_biserial": 0.04697986577181208,
+   "mean_diff": 9.054962772504241e-08,
+   "n_pairs": 150,
+   "significant_at_0.05": false
+  },
+  "severity vs BSC-RCA-CPSO": {
+   "p": 4.559199916984128e-11,
+   "effect_rank_biserial": 0.5066666666666667,
+   "mean_diff": 4.973478746123848e-06,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "severity vs TQoSC": {
+   "p": 1.7065374956116144e-14,
+   "effect_rank_biserial": 0.56,
+   "mean_diff": 6.512361842417519e-06,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "score vs IoTSC-FCA": {
+   "p": 2.2996057560669792e-26,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.004540969917416197,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "score vs BSC-RCA-CPSO": {
+   "p": 2.2996057560669792e-26,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.12681289113438712,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "score vs TQoSC": {
+   "p": 2.2996057560669792e-26,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.13444609357104598,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "n_conflicts vs IoTSC-FCA": {
+   "p": 1.3766959162538117e-22,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -0.09033333333333333,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "n_conflicts vs BSC-RCA-CPSO": {
+   "p": 2.1563161002935663e-12,
+   "effect_rank_biserial": -0.6283185840707964,
+   "mean_diff": -0.059,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "n_conflicts vs TQoSC": {
+   "p": 1.938155501273865e-08,
+   "effect_rank_biserial": -0.4690265486725664,
+   "mean_diff": -0.04666666666666667,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "time_ms vs IoTSC-FCA": {
+   "p": 5.175636870959352e-25,
+   "effect_rank_biserial": -0.96,
+   "mean_diff": -0.3034289636692999,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "time_ms vs BSC-RCA-CPSO": {
+   "p": 2.2996057560669792e-26,
+   "effect_rank_biserial": -1.0,
+   "mean_diff": -5.852610244003699,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  },
+  "time_ms vs TQoSC": {
+   "p": 2.2996057560669792e-26,
+   "effect_rank_biserial": 1.0,
+   "mean_diff": 1.0347702119974354,
+   "n_pairs": 150,
+   "significant_at_0.05": true
+  }
+ }
+}

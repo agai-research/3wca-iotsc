@@ -1,0 +1,7 @@
+# E6 - situation table completeness (Section 8.7)
+dataset:
+  n_services: 500
+  n_resources: 200
+  density: 0.20
+query:
+  n_tasks: 10

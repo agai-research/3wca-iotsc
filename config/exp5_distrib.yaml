@@ -1,0 +1,6 @@
+# E5 - conflict data distribution profiles (Section 8.6)
+dataset:
+  n_services: 500
+  n_resources: 200
+query:
+  n_tasks: 10

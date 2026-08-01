@@ -1,0 +1,5 @@
+03:31:44 INFO    exp2_scale | exp2_scale point=200 done (10 runs)
+03:31:48 INFO    exp2_scale | exp2_scale point=500 done (10 runs)
+03:31:58 INFO    exp2_scale | exp2_scale point=1000 done (10 runs)
+03:32:17 INFO    exp2_scale | exp2_scale point=1500 done (10 runs)
+03:32:29 INFO    exp2_scale | exp2_scale point=2000 done (10 runs)

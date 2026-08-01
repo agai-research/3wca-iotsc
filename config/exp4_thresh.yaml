@@ -1,0 +1,7 @@
+# E4 - threshold sensitivity, 3WCA-IoTSC only (Section 8.5)
+dataset:
+  n_services: 500
+  n_resources: 200
+  density: 0.20
+query:
+  n_tasks: 10

@@ -1,0 +1,8 @@
+# E2 - ICPS space size sweep (Section 8.3)
+dataset:
+  density: 0.20
+query:
+  n_tasks: 10
+run:
+  n_runs: 10        # larger spaces: fewer repetitions, documented in the README
+  n_queries: 10

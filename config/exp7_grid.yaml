@@ -1,0 +1,8 @@
+# E7 (supplementary) - cross-sweep of conflict density x workflow size.
+# Supports the 3D surface comparison; not part of the six experiments of the paper.
+dataset:
+  n_services: 500
+  n_resources: 200
+run:
+  n_runs: 10
+  n_queries: 10

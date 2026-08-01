@@ -1,0 +1,31 @@
+{
+ "query": "hybrid-lecture",
+ "C_IoT": [
+  "LS",
+  "QG",
+  "RM",
+  "SL",
+  "PC"
+ ],
+ "resources": [
+  "MS",
+  "AH",
+  "WC",
+  "PG",
+  "TS",
+  "MG",
+  "AL",
+  "MB",
+  "EP"
+ ],
+ "severity": 0.11555555555555556,
+ "score": 0.7407222222222223,
+ "conflict_free": true,
+ "picks": {
+  "a1": "LS",
+  "a2": "QG",
+  "a3": "PC",
+  "a4": "RM",
+  "a5": "SL"
+ }
+}

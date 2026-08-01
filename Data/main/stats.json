@@ -1,0 +1,15 @@
+{
+  "n_services": 1000,
+  "n_resources": 500,
+  "n_features": 20,
+  "defined_stances": 3062,
+  "plus": 1572,
+  "zero": 896,
+  "minus": 594,
+  "pct_minus": 19.4,
+  "mean_res_per_service": 3.062,
+  "mean_feat_per_service": 4.023,
+  "n_capabilities": 71,
+  "fill_Ir": 0.00612,
+  "fill_If": 0.20115
+}

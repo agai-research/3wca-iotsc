@@ -1,0 +1,4 @@
+07:35:19 INFO    prototype | ICPS space loaded: |S|=8 |R|=10 |F|=5
+07:35:19 INFO    prototype | lattices built in 0.000 s (|L^r|=16 |L^f|=9 |L^c|=18)
+07:35:19 INFO    prototype | 3WCA analysis: |Delta|=5 |Gamma|=9 |psi|=2
+07:35:19 INFO    prototype | composition written to /home/claude/3WCA-IoTSC/results/composition.txt

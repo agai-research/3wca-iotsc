@@ -1,0 +1,4 @@
+07:35:18 INFO    lattices | formal contexts written to /home/claude/3WCA-IoTSC/Data/inst/main: {'r': {'objects': 1000, 'attributes': 500, 'fill': 0.00612}, 'f': {'objects': 1000, 'attributes': 20, 'fill': 0.20115}, 'c': {'objects': 1000, 'attributes': 1000, 'fill': 0.00217}}
+07:35:18 INFO    lattices | lattice L^r: 1200 concepts (capped=True)
+07:35:19 INFO    lattices | lattice L^f: 1200 concepts (capped=True)
+07:35:19 INFO    lattices | lattice L^c: 1200 concepts (capped=True)

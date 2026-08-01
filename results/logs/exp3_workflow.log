@@ -1,0 +1,5 @@
+03:48:28 INFO    exp3_workflow | exp3_workflow_5 point=5 done (15 runs)
+03:48:36 INFO    exp3_workflow | exp3_workflow_10 point=10 done (15 runs)
+03:48:45 INFO    exp3_workflow | exp3_workflow_20 point=20 done (15 runs)
+03:48:55 INFO    exp3_workflow | exp3_workflow_30 point=30 done (15 runs)
+03:49:05 INFO    exp3_workflow | exp3_workflow_50 point=50 done (15 runs)

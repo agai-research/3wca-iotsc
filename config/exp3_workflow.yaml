@@ -1,0 +1,8 @@
+# E3 - workflow complexity sweep (Section 8.4)
+dataset:
+  n_services: 500
+  n_resources: 200
+  density: 0.20
+run:
+  n_runs: 15        # 50-task workflows are costly; documented in the README
+  n_queries: 10
