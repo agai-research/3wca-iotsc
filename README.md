@@ -1,14 +1,13 @@
 # 3WCA-IoTSC
 
 Prototype implementation of **three-way conflict analysis for conflict-aware IoT
-service composition**, following *"Three-Way Conflict Analysis for Trustworthy
-ICPS Applications: Conflict-Aware Composition of IoT Services and Resources in
+service composition**, with application in
 Smart Education Environments"*.
 
 The approach models the stances of ICPS service providers towards the IoT
 resources they share as a three-valued Pawlak situation table, derives a feature
-lattice, a resource lattice and a conflict lattice from it, trisects the services
-into a maximum coalition `Delta`, a minimum conflict set `Gamma` and a neutral
+lattice, a resource lattice and a conflict lattice from it, trisects the IoT services
+into a maximum coalition $Delta$, a minimum conflict set `Gamma` and a neutral
 set `psi`, and uses those sets to assemble the best non-conflicting composition
 of IoT services and resources for a requested abstract workflow.
 
